@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+<body>
+A simple utility for archiving large numbers of Slack channels. You can get the auth token on the Slack API page under Web API. Pattern accepts any valid JavaScript regex.
+<hr>
+<div id="token">Token: </div>
+<input id="tokenInput" size="80"></input>
+<hr>
+<div id="pattern">Pattern: </div>
+<input id="patternInput" size="80"></input>
+<br><br><button id="getChannels">Find Channels</button>
+<hr>
+<div id="textWindow"></div>
+<hr>
+<button id="archiveButton">Archive</button>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="channelDeleter.js"></script>
+</body>
+</html>
